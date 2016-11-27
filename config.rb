@@ -69,12 +69,23 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 
+  # set :js_dir, 'javascripts'
+
   # set :phase_environment, 'Production' # Development, Test, Production 
   # set :css_dir, 'stylesheets'
   # set :js_dir, '../../../javascripts/'
   # set :images_dir, 'images'
   # set :helper_dir, 'helper'
   # set :partials_desktop_Common_dir, 'src/desktop/Common'
+
+  # Any files you want to ignore:
+  # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/App.vue'
+  # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/Shared/Footer.vue'
+  # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/Shared/Header.vue'
+  # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/Server/ServerDetails.vue'
+  # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/Server/Servers.vue'
+  ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/*'
+
 
 end
 
