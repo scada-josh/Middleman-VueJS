@@ -85,6 +85,7 @@ configure :build do
   # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/Server/ServerDetails.vue'
   # ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/Server/Servers.vue'
   ignore '/javascripts/javascript-chapter-07-time-to-practice-components/partials/vue/components/*'
+  ignore '/javascripts/javascript-ch08-communicate-components/partials/vue/components/*'
 
 
 end
