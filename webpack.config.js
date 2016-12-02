@@ -10,7 +10,8 @@ module.exports = {
     'javascript-vue-03-wp': './source/javascripts/javascript-vue-03-wp.js',
     'javascript-vue-04-wp': './source/javascripts/javascript-vue-04-wp.js',
     'javascript-chapter-07-time-to-practice-components-wp': './source/javascripts/javascript-chapter-07-time-to-practice-components-wp.js',
-    'javascript-ch08-communicate-components-wp': './source/javascripts/javascript-ch08-communicate-components-wp.js'
+    'javascript-ch08-communicate-components-wp': './source/javascripts/javascript-ch08-communicate-components-wp.js',
+    'javascript-vue-routing-wp': './source/javascripts/javascript-vue-routing-wp.js'
   },
 
   resolve: {
