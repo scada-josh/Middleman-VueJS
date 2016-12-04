@@ -1,17 +1,21 @@
 <template>
     <div class="container">
-    <h1>Hello World</h1>
+    	<div class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <h1>Routing...</h1>
+                <hr/>
+
+                <router-link to="/">Go to Home</router-link>
+                <router-link to="/user">Go to User</router-link>
+                
+                <router-view></router-view>
+            </div>
+    	</div>
     </div>
 </template>
 
 <script>
-
-    export default {
-        components: {
-        }
-    }
 </script>
 
 <style>
-
 </style>
